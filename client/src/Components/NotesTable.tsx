@@ -240,7 +240,7 @@ export default function StickyHeadTable() {
           </TableBody>
         </Table>
       </TableContainer>
-      {notes && (
+      {notes && notes.length > 0 && (
         <TablePagination
           rowsPerPageOptions={[10, 25, 100]}
           component="div"
